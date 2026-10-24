@@ -2,7 +2,7 @@ package com.mycompany.automatedtellermachine;
 import java.util.Scanner;
 
 public class Automatedtellermachine {
-    
+    //Comment for version 2
     static Scanner input = new Scanner(System.in);
     static double savingAmt = 1000;
     static double checkingAmt = 5000;
@@ -23,8 +23,7 @@ public class Automatedtellermachine {
             if (pin.equals(correctPin)){ 
                 System.out.println("Please Wait...\n");
                 isAuthorized = true;
-            }
-            else {
+            } else {
                 attempts++;
                 int triesLeft = 3-attempts;
                 
